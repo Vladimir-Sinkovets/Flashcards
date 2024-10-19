@@ -17,23 +17,50 @@
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	line-height: 260px;
+	line-height: 50px;
 	color: white;
 	text-align: center;
 	font-weight: bold;
 	font-size: 40px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+	border-radius: 10px;
+	border: solid;
+	border-color: #ADD8E6;
+	border-width: 3px;
 }
 
 .card-face-front{
 	background: blue;
 }
 .card-face-back{
-	background: red;
 	transform: rotateY(180deg);
+}
+
+.card-correct{
+	background: DodgerBlue;
+}
+
+.card-incorrect{
+	background: red;
 }
 
 .card.is-flipped {
 	transform: rotateY(180deg);
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+.option{
+	color: black;
+	font-size: 30;
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	border-color: #ADD8E6;
+	border-style: solid;
 }
