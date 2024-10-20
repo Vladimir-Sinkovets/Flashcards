@@ -95,7 +95,6 @@ function nextButtonClick(){
 		optionList.innerHTML = '';
 	}
 	else{
-		console.log(currentQuestionIndex);
 		currentQuestionIndex++;
 		
 		setQuestion(currentQuestionIndex);
