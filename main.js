@@ -80,7 +80,7 @@ function setQuestion(index){
 	
 	options.forEach((item) => {		
 		let li = document.createElement('li');
-		li.classList.add('option');
+		li.classList.add('card-button');
 		li.textContent = item.answer;
 		
 		li.addEventListener('click', chooseOption);
